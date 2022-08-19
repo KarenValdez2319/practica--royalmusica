@@ -1,0 +1,49 @@
+ 
+			#header {
+				background-position:center;
+				margin:auto;
+				width:900px;
+				font-family:small fonts;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#FFF;
+				text-decoration:none;
+				padding:12px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#000;
+				width:auto;
+				
+				
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:540px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:240px;
+				top:6px;
+			}

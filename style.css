@@ -1,0 +1,126 @@
+body {
+	background-image: url(images/Fondo1.gif);
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}	
+main
+{
+	width: 816px;
+    height: 1069px; 
+	background-image: url(images/main.gif);
+	margin:0 auto;
+	color: #000;
+}
+p{
+	text-align: center;
+	line-height: 19px;
+	padding: 0px;
+	margin: 0px;
+	color: #000;
+}
+header{
+width:960px;
+margin:auto;
+height:90px;
+}
+#menu{
+width:530px;
+float:right;
+padding:40px 0 0 0;
+}
+#menu ul{
+list-style:none;padding:0px;margin:0px;display:block;
+}
+#menu ul li{
+list-style:none;display:inline;float:left;width:auto;padding:0px;font-size:12px;
+}
+#menu ul li a{
+float:left;text-decoration:none;padding:0px 10px 0 10px; margin:0px 4px 0 4px;color:#000;text-align:center; height:31px; line-height:31px; 
+}
+#menu ul li a:hover{
+background-color:#FC0;color:#fff;
+}
+#menu ul li a.current{
+float:left;text-decoration:none;padding:0px 10px 0 10px; margin:0px 4px 0 4px;color:#fff;text-align:center; height:31px; line-height:31px; background-color:#FC0;
+}
+<!--- marquee hacia abajo--->
+#down {
+	position: absolute;
+	left: 627px;
+	top: 578px;
+	width: 361px;
+	height: 374px;
+	z-index: 1;
+}
+input.newsletter_submit{
+	background-color: #FC0;
+	color: #000;
+	text-align: right;
+	float: left;
+	padding: 4px 4px 3px 4px;
+	margin: 0 0 0 10px;
+	border: 1px #fdeaeb solid;
+	cursor: pointer;
+}
+button.newsletter_submit{
+	background-color: #FC0;
+	color: #000;
+	text-align: right;
+	float: left;
+	padding: 4px 4px 3px 4px;
+	margin: 0 0 0 10px;
+	border: 1px #fdeaeb solid;
+	cursor: pointer;
+section{
+	position: auto;
+	left: 115px;
+	top: 570px;
+	width: 346px;
+	height: 189px;
+	z-index: 1;
+}
+.center_content_pages .financial-application-form table {
+	text-align: center;
+}
+video{
+	margin: 20px 0px 0px 0px;
+	box-shadow: #FE1BC1 0px 0px 30px;
+}
+img[encabezado*='img']{
+	width: 80%;
+	height: 20vh;
+	border-radius: 100px;
+}
+div[class*='cancion']{
+	border: solid black 4px;
+	border-radius: 20px;
+	border-style: dashed;
+	width: 80%;	
+	margin: 30px 0px;
+}
+div[class*='imagen']{
+	background: transparent;
+	text-align: left;	
+	width: 30%;
+	float: left;	
+	margin: 0px 10px;
+
+}
+div[class*='descripcion']  {	
+	text-align: left;
+	background: transparent;
+	text-shadow: blue 1px 1px .5px;
+}
+img[imagen='css']{	
+	border-radius: 100px;
+	width: 100%;
+	height: 15vh;
+	margin: 0 auto;
+}
+#logo{
+padding:10px 0 0 20px;
+float:left;
+}
